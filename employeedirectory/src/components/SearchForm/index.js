@@ -17,8 +17,12 @@ function SearchForm(props) {
           placeholder="Type in a search term to begin"
           id="term"
         />
+        <br/>
+        <button onClick={()=> props.filterFriend(props.name)} className="btn btn-primary">
+          Search
+        </button>
       </div>
-      <button>Sort By: A-Z</button>
+      <button onClick={props.sortAZ}>Sort By: A-Z</button>
       <button>Sort By: Z-A</button>
     </form>
   );

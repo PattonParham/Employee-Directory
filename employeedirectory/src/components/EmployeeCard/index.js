@@ -9,19 +9,19 @@ function EmployeeCard(props) {
       <div className="content row">
         
           <div className= "col-4">
-          <li>
+          
             <strong>Name:</strong> {props.name}
-          </li>
+        
           </div>
           <div className= "col-4">
-          <li>
+         
             <strong>Occupation:</strong> {props.occupation}
-          </li>
+        
           </div>
           <div className= "col-4">
-          <li>
+        
             <strong>Location:</strong> {props.location}
-          </li>
+        
           </div>
         
       </div>
